@@ -27,3 +27,16 @@ Make your team work readable using comments and docstrings.
     b. add all changes
     c. commit all changes with proper message
     d. push the code to me on a branch whoes name is your team name
+
+
+## === Names of Active Team Members ===
+    1. Emeh Glory Chiamaka
+    2. 
+    3. 
+    4.
+    5.
+    6.
+    7.
+    8.
+    9.
+    
