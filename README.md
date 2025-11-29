@@ -1,29 +1,36 @@
-# === Tasks ===
+# === Group 5: Team members [Base Bangers] ===
+Tasie Chidera Olive
+Chibuzor Elijah Izuchukwu
+Oluchukwu Promise .C
+Ehiemere Cyril Chikodi
+Chidiebere Tonia Tochi
+Ugochukwu Samuel
+Ihemamma Ozioma Wisdom
+Chigozie Mary Nnaemeka
+Josiah Victor Ikechukwu
 
-Task 1.
-Modify the code in the file named project1.py such that:
-    a. Names will appear in all caps
-    b. Age will be of the int data type
-    c. Colour will start with a Capital letter
+## === Details of work done === 
+1. Ensured name is stored in uppercase.
 
-Task 2.
-Add error handling lines of code to take care of:
-    a. Non digit input for age
-    b. Non alphabet input for names
+The program validates that the user‑supplied name contains only alphabetic characters. Upon successful validation, the name is automatically converted to uppercase using the .upper() method. This enforces a consistent data format, eliminating variations such as “ada”, “Ada”, or “aDa”, and ensuring all stored names follow a uniform standard (e.g., “ADA”).
 
-Task 3.
-Use appropriate control structures to control: 
-    a. the number of items on the list before breaking or exiting
+2. Converted age to integer and added proper error handling.
 
-Task 4.
-Make your team work readable using comments and docstrings.
+To avoid invalid age entries (e.g., text or symbols), the input is transformed into an integer via int(). The conversion is placed within a try‑except block; if the user enters a non‑numeric value (such as “twenty”), an error message is displayed and re‑prompt is issued. This guarantees that the age values persisted in the dataset are valid numeric entries.
 
-## === How to Submit === 
-1. After your work, modify this readme file to include:
-    a. List of active team members
-    b. Detail of work done
-2. The team lead alone should:
-    a. modify the .gitignore file to include proper ignore list
-    b. add all changes
-    c. commit all changes with proper message
-    d. push the code to me on a branch whoes name is your team name
+3. Capitalized colour input.
+
+The user‑provided colour is formatted with .capitalize(), which makes the first letter uppercase and the remaining letters lowercase (e.g., “blue” becomes “Blue”, “RED” becomes “Red”). This yields consistent colour representation across records and enhances data cleanliness for later analysis.
+
+4. Added loop to control number of records.
+
+A loop structure was introduced to restrict the number of user entries per execution. The program is configured to accept a maximum of three (3) records. After each entry, a counter is incremented, and once the limit is reached the loop terminates automatically. This provides controlled data entry, prevents inadvertent infinite looping, and satisfies the assignment’s requirement for a fixed input size.
+
+5. Wrote clear comments and docstrings across all functions.
+
+Every function is equipped with a docstring that describes its purpose, functionality, and contribution to the overall workflow. In addition, inline comments have been inserted to clarify complex operations, validation steps, formatting logic, and flow control. This improves code readability, facilitates maintenance, and ensures reviewers can understand each segment without ambiguity.
+
+6. Loaded processed data into a CSV file.
+
+After gathering and validating all records, the program writes the data to a CSV file named record.csv. First, a header row (Id, Name, Age, Colour) is created to structure the file. Then, the data rows are appended one by one using a CSV writer. This completes the ETL pipeline: Extract - input from the user 
+Transform - through formatting and validation, and Load - into a CSV dataset..
