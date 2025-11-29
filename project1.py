@@ -67,7 +67,7 @@ def main():
      # ETL process
     print(set_file())
    
-    MAX_RECORDS = 2
+    MAX_RECORDS = 3
     count = 0
 
     while count < MAX_RECORDS:

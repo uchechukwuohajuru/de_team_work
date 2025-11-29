@@ -30,7 +30,6 @@ Make your team work readable using comments and docstrings.
     
 
 **UPDATED README CONTENT**
-S
 
 ACTIVE TEAM MEMBERS
 
@@ -41,6 +40,8 @@ ACTIVE TEAM MEMBERS
 5. Uchechukwu Onyinyechi Christabel
 6. Glory o.Akwara
 7. Atulegwu Osinachi
+8. Onyedikachi Delight Chihurumnanya
+9. Chinonso Chiemela Onyeama
 
 
 DETAILS OF WORK DONE
